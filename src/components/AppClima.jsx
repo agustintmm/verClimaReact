@@ -7,7 +7,6 @@ import useClima from "../hooks/useClima"
 export default function AppClima() {
   
   const { resultado, cargando, alerta } = useClima()
-  console.log(cargando)
   
   return (
     <> 
